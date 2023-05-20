@@ -1,0 +1,169 @@
+body {
+  background-image: linear-gradient(90deg, #b10000 36%, #ff5500 90%);
+
+}
+
+* {
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.photo img {
+  width: 450px;
+  height: auto;
+  padding-left: 200px;
+  padding-top: 90px;
+}
+
+.social-media ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media li {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro';
+  color: #fefdfd;
+}
+
+.social-media a:hover {
+  color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 41%;
+  background-color: #000000;
+  border-radius: 30px;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 60px 60px;
+  border-radius: 50px;
+  background-color: #b10000;
+}
+
+a:hover {
+  background-color: #3c3c3c;
+}
+
+.exit ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.exit li {
+  margin-bottom: 10px;
+  padding-left: 18px;
+}
+
+.exit a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 2px 9px;
+  border-radius: 30px;
+  background-color: #000000;
+}
+
+.exit a:hover {
+  color: #ffffff;
+}
+
+
+.forward ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.forward li {
+  margin-bottom: 10px;
+}
+
+.forward a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 2px 9px;
+  border-radius: 30px;
+  background-color: #000000;
+}
+
+.forward a:hover {
+  color: #ffffff;
+}
+
+.esq {
+  margin-left: 1500px;
+}
+
+.sair {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  padding-top: 60px;
+}
+
+.sidebar__sidebar {
+  width: 28%;
+  background-color: #6b0000;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Source Sans Pro';
+  color: #fefdfd;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.sidebar__main {
+  flex: 1;
+  padding: 20px;
+  background-color: #880000;
+  text-decoration: none;
+  font-family: 'Source Sans Pro';
+  font-size: 22px;
+  color: #fefdfd;
+  overflow: auto;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.euai {
+ border-radius: 50px;
+
+}
